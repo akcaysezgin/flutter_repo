@@ -1,8 +1,8 @@
-import 'package:mvvm_bloc/presentation/view/user/screen/user_list_screen.dart';
-import 'package:mvvm_bloc/presentation/viewmodel/user/bloc/user_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
-import 'application/core/app_theme.dart';
+import 'package:mvvm_bloc/src/constants/app_theme.dart';
+import 'package:mvvm_bloc/src/features/authentication/presentation/view/login/user_list_screen.dart';
+import 'package:mvvm_bloc/src/features/authentication/presentation/viewmodel/bloc/user_bloc.dart';
 
 import 'di.dart';
 
